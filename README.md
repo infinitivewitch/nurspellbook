@@ -22,6 +22,9 @@
 - [**linyinfeng**](https://github.com/linyinfeng)
   - https://github.com/linyinfeng/nur-packages
     - for the [lib](./scrolls/lib/library.nix) functions
+    - for many bits under [scrolls](./scrolls/)
+    - **check all files with:**
+      - `nix-shell -p reuse --run "reuse spdx | awk -v RS='' -v ORS='\n\n' '/lin.yinfeng@outlook.com/'"`
 
 ## License
 
