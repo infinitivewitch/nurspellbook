@@ -18,5 +18,25 @@
       "type": "github"
     },
     "version": "3c0ecd8be017a5aa16311bc1185aaf4be05325b7"
+  },
+  "nixpkgs-master": {
+    "cargoLocks": null,
+    "date": "2023-04-16",
+    "extract": null,
+    "name": "nixpkgs-master",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "owner": "NixOS",
+      "repo": "nixpkgs",
+      "rev": "6bf4cde63f78b2d58346d2574beb6c49c23ff247",
+      "sha256": "sha256-0m+KR2/TPU95LoGoyEdbEkjDlbpQ6af0y+SkGcMaxIY=",
+      "type": "github"
+    },
+    "version": "6bf4cde63f78b2d58346d2574beb6c49c23ff247"
   }
 }
