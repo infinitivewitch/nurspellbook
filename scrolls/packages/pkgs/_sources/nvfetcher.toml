@@ -1,3 +1,6 @@
 [eupnea-scripts]
 src.git = "https://github.com/eupnea-linux/audio-scripts"
 fetch.github = "eupnea-linux/audio-scripts"
+[nixpkgs-master]
+src.git = "https://github.com/NixOS/nixpkgs"
+fetch.github = "NixOS/nixpkgs"
