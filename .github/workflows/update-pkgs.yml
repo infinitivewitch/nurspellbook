@@ -17,7 +17,7 @@ jobs:
         key: ${{ hashFiles('scrolls/packages/pkgs/_sources/nvfetcher.toml') }}-${{ hashFiles('scrolls/packages/pkgs/_sources/generated.nix') }}
         restore-keys: |
           ${{ hashFiles('scrolls/packages/pkgs/_sources/nvfetcher.toml') }}-
-    - uses: cachix/install-nix-action@v20
+    - uses: cachix/install-nix-action@v22
       with:
         nix_path: nixpkgs=channel:nixpkgs-unstable
         extra_nix_config: |
